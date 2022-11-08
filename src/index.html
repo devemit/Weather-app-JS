@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="/js/app.js"></script>
+    <link rel="stylesheet" href="/tailwind/output.css" />
+    <title>Weather App</title>
+  </head>
+  <body
+    style="
+      background-image: url('https://images.unsplash.com/photo-1523793740499-83d43b75a2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    "
+    class="w-full h-screen flex items-center justify-center bg-no-repeat bg-cover"
+  >
+    <div
+      class="leading-10 lg:bg-opacity-5 lg:bg-white md:bg-opacity-5 md:bg-white p-20 rounded-3xl"
+    >
+      <div id="location" class="tracking-widest">
+        <h1
+          id="location-timezone"
+          class="font-semibold text-5xl text-gray-100 text-center"
+        >
+          New York
+        </h1>
+      </div>
+      <div id="temperature" class="flex mt-10">
+        <h1
+          id="temperature-degree"
+          class="font-semibold text-4xl text-gray-100 cursor-pointer"
+        >
+          35
+        </h1>
+        <span id="F-C" class="text-2xl mr-8 text-gray-100 cursor-pointer"
+          >°C</span
+        >
+        <p
+          id="temperature-description"
+          class="text-2xl text-gray-100 font-medium cursor-pointer"
+        >
+          Windy and Cold
+        </p>
+      </div>
+      <div class="mt-10">
+        <hr class="w-full h-0.5 bg-black" />
+      </div>
+      <div class="mt-10 ml-6">
+        <p
+          id="wind-speed"
+          class="text-2xl font-medium leading-10 text-gray-100 text-center mr-4"
+        >
+          Wind Speed: 1 meter/s
+        </p>
+        <p
+          id="humidity"
+          class="text-2xl font-medium leading-10 text-gray-100 text-center mr-4"
+        >
+          Humidity levels: 93%
+        </p>
+      </div>
+
+      <div class="input mt-10 flex items-end justify-center">
+        <input
+          type="text"
+          class="inputValue outline-none px-4 py-0.5 w-full"
+          placeholder="Search Your City..."
+        />
+        <input
+          type="submit"
+          value="Submit"
+          class="button text-gray-500 font-semibold bg-white py-0.5 px-3 cursor-pointer"
+        />
+      </div>
+    </div>
+    <footer class="absolute bottom-0 right-0 px-2 py-1">
+      <p class="text-xs">©2022 by devemit</p>
+    </footer>
+  </body>
+</html>
