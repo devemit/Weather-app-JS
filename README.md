@@ -3,9 +3,9 @@
 
 
 ## Table of contents
-- (Screenshot)
-- (Links)
-- (Built with)
+- Screenshot
+- Links
+- Built with
 
 ## Overview
 ## Screenshot
