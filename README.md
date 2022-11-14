@@ -15,7 +15,7 @@
 
 ## Links 
 - Repository URL: [View code](https://github.com/devemit/Weather-app-JS)
-- Live Site URL: [Live Previewv](https://meteo-today.netlify.app/)
+- Live Site URL: [Live Preview](https://meteo-today.netlify.app/)
 
 ## Built with
 - Asynchronous Code
