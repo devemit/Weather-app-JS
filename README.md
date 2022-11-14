@@ -7,7 +7,9 @@ Simple Weather Application
 - Links
 - Built with
 
-## Overview![screencapture-meteo-today-netlify-app-2022-11-14-18_53_43](https://user-images.githubusercontent.com/107273888/201732409-6763f617-4bb2-4ea9-8524-710d372525c0.png)
+## Overview
+![screencapture-meteo-today-netlify-app-2022-11-14-19_02_47](https://user-images.githubusercontent.com/107273888/201733307-ad746725-fe04-4b1d-b485-a653128090ad.png)
+
 
 
 ## Links 
@@ -15,13 +17,13 @@ Simple Weather Application
 - https://meteo-today.netlify.app/
 
 ## Built with
--Asynchronous Code
--Async and Await
--Tailwind CSS
--OpenWeatherMap API
--ES6 Modules
--OOP Principles
--Visual Studio Code
+- Asynchronous Code
+- Async and Await
+- Tailwind CSS
+- OpenWeatherMap API
+- ES6 Modules
+- OOP Principles
+- Visual Studio Code
 
 
 
