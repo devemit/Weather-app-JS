@@ -28,6 +28,5 @@
 
 
 
-![screencapture-roll4win-netlify-app-2023-02-10-18_21_29](https://user-images.githubusercontent.com/107273888/218156200-b3ac034c-546f-4d9d-bbed-957243adebbd.png)
 
 
